@@ -2,13 +2,13 @@
 
 buildscript {
     ext {
-        kotlin_version = '1.7.21'
-        lifecycle_version = '2.5.1'
+        kotlin_version = '1.8.0'
+        lifecycle_version = '2.6.0'
         room_version = '2.5.0'
         supportLibraryVersion = '27.1.1'
-        playServicesVersion = '18.0.0'
-        appCompatVersion = '1.6.0'
-        browserVersion = '1.4.0'
+        playServicesVersion = '21.0.1'
+        appCompatVersion = '1.6.1'
+        browserVersion = '1.5.0'
         version_navigation = '1.0.0'
     }
     repositories {
@@ -17,7 +17,7 @@ buildscript {
     }
     dependencies {
 
-        classpath 'com.android.tools.build:gradle:7.4.0'
+        classpath 'com.android.tools.build:gradle:7.4.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
