@@ -3,8 +3,8 @@
 buildscript {
     ext {
         kotlin_version = '1.8.0'
-        lifecycle_version = '2.6.0'
-        room_version = '2.5.0'
+        lifecycle_version = '2.6.1'
+        room_version = '2.5.1'
         supportLibraryVersion = '27.1.1'
         playServicesVersion = '21.0.1'
         appCompatVersion = '1.6.1'
